@@ -1,0 +1,30 @@
+{
+  "name": "darker-night-dracula",
+  "publisher": "SiriusDev",
+  "displayName": "Darker Night Dracula",
+  "description": "A darker, less glaring version of our beloved Dracula theme",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gabriel Viana",
+    "url": "https://github.com/pySiriusDev"
+  },
+  "repository": {
+    "url": "https://github.com/pySiriusDev/darker-night-dracula"
+  },
+  "icon": "img/icon.png",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darker Night Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darker-night-dracula.json"
+      }
+    ]
+  }
+}
